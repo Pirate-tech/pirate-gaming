@@ -1,0 +1,17 @@
+.dropcontent{
+    display: none;
+    position:absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropcontent a{
+    color: ghostwhite;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropcontent{
+    display: block;
+}
